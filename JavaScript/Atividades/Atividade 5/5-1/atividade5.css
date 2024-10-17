@@ -1,0 +1,48 @@
+html{
+  text-align: center;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(20, 1, 75),rgb(65, 0, 0),rgb(19, 63, 15));
+  color: aqua;
+}
+
+p{
+  font-size: 15px;
+}
+
+main{
+  text-align: center;
+}
+
+.image-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.image-button img {
+  width:40px;
+  height: auto;
+}
+
+#imagens {
+  width: 250px;
+  height: 300px;
+  border-radius: 12px;
+}
+
+#cards {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 350px);
+}
+
+#cards-info {
+  font-family: 'Times New Roman', Times, serif;
+  border: solid white 2px;
+  text-align: center;
+  width: 260px;
+  height: 400px;
+  border-radius: 12px;
+  margin: 10px;
+}

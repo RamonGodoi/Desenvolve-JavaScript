@@ -1,0 +1,289 @@
+const Botao1 = document.getElementById('Botao1');
+const Contador1Display = document.getElementById('Contador1');
+
+let likes = [];
+
+Botao1.addEventListener('click', () => {
+    const name = prompt("Digite seu nome:"); 
+
+    if (name && !likes.includes(name)) { 
+        likes.push(name);
+    }
+    
+    updateContador1();
+});
+
+function updateContador1() {
+    const count = likes.length;
+
+    if (count === 0) {
+        Contador1.textContent = "Ninguém curtiu";
+    } else if (count === 1) {
+        Contador1.textContent = `${likes[0]} curtiu`;
+    } else if (count === 2) {
+        Contador1.textContent = `${likes[0]} e ${likes[1]} curtiram`;
+    } else {
+        Contador1.textContent = `${likes[0]}, ${likes[1]} e mais ${count - 2} pessoas curtiram`;
+    }
+}
+
+const Botao2 = document.getElementById('Botao2');
+const Contador2Display = document.getElementById('Contador2');
+
+let likes2 = [];
+
+Botao2.addEventListener('click', () => {
+    const name = prompt("Digite seu nome:"); 
+
+    if (name && !likes2.includes(name)) { 
+        likes2.push(name);
+    }
+    
+    updateContador2();
+});
+
+function updateContador2() {
+    const count = likes2.length;
+
+    if (count === 0) {
+        Contador2.textContent = "Ninguém curtiu";
+    } else if (count === 1) {
+        Contador2.textContent = `${likes2[0]} curtiu`;
+    } else if (count === 2) {
+        Contador2.textContent = `${likes2[0]} e ${likes2[1]} curtiram`;
+    } else {
+        Contador2.textContent = `${likes2[0]}, ${likes2[1]} e mais ${count - 2} pessoas curtiram`;
+    }
+}
+
+const Botao3 = document.getElementById('Botao3');
+const Contador3Display = document.getElementById('Contador3');
+
+let likes3 = [];
+
+Botao3.addEventListener('click', () => {
+    const name = prompt("Digite seu nome:"); 
+
+    if (name && !likes3.includes(name)) { 
+        likes3.push(name);
+    }
+    
+    updateContador3();
+});
+
+function updateContador3() {
+    const count = likes3.length;
+
+    if (count === 0) {
+        Contador3.textContent = "Ninguém curtiu";
+    } else if (count === 1) {
+        Contador3.textContent = `${likes3[0]} curtiu`;
+    } else if (count === 2) {
+        Contador3.textContent = `${likes3[0]} e ${likes3[1]} curtiram`;
+    } else {
+        Contador3.textContent = `${likes3[0]}, ${likes3[1]} e mais ${count - 2} pessoas curtiram`;
+    }
+}
+
+const Botao4 = document.getElementById('Botao4');
+const Contador4Display = document.getElementById('Contador4');
+
+let likes4 = [];
+
+Botao4.addEventListener('click', () => {
+    const name = prompt("Digite seu nome:"); 
+
+    if (name && !likes4.includes(name)) { 
+        likes4.push(name);
+    }
+    
+    updateContador4();
+});
+
+function updateContador4() {
+    const count = likes4.length;
+
+    if (count === 0) {
+        Contador4.textContent = "Ninguém curtiu";
+    } else if (count === 1) {
+        Contador4.textContent = `${likes4[0]} curtiu`;
+    } else if (count === 2) {
+        Contador4.textContent = `${likes4[0]} e ${likes4[1]} curtiram`;
+    } else {
+        Contador4.textContent = `${likes4[0]}, ${likes4[1]} e mais ${count - 2} pessoas curtiram`;
+    }
+}
+
+const Botao5 = document.getElementById('Botao5');
+const Contador5Display = document.getElementById('Contador5');
+
+let likes5 = [];
+
+Botao5.addEventListener('click', () => {
+    const name = prompt("Digite seu nome:"); 
+
+    if (name && !likes.includes(name)) { 
+        likes5.push(name);
+    }
+    
+    updateContador5();
+});
+
+function updateContador5() {
+    const count = likes5.length;
+
+    if (count === 0) {
+        Contador5.textContent = "Ninguém curtiu";
+    } else if (count === 1) {
+        Contador5.textContent = `${likes5[0]} curtiu`;
+    } else if (count === 2) {
+        Contador5.textContent = `${likes5[0]} e ${likes5[1]} curtiram`;
+    } else {
+        Contador5.textContent = `${likes5[0]}, ${likes5[1]} e mais ${count - 2} pessoas curtiram`;
+    }
+}
+
+const Botao6 = document.getElementById('Botao6');
+const Contador6Display = document.getElementById('Contador6');
+
+let likes6 = [];
+
+Botao6.addEventListener('click', () => {
+    const name = prompt("Digite seu nome:"); 
+
+    if (name && !likes6.includes(name)) { 
+        likes6.push(name);
+    }
+    
+    updateContador6();
+});
+
+function updateContador6() {
+    const count = likes6.length;
+
+    if (count === 0) {
+        Contador6.textContent = "Ninguém curtiu";
+    } else if (count === 1) {
+        Contador6.textContent = `${likes6[0]} curtiu`;
+    } else if (count === 2) {
+        Contador6.textContent = `${likes6[0]} e ${likes6[1]} curtiram`;
+    } else {
+        Contador6.textContent = `${likes6[0]}, ${likes6[1]} e mais ${count - 2} pessoas curtiram`;
+    }
+}
+
+const Botao7 = document.getElementById('Botao7');
+const Contador7Display = document.getElementById('Contador7');
+
+let likes7 = [];
+
+Botao7.addEventListener('click', () => {
+    const name = prompt("Digite seu nome:"); 
+
+    if (name && !likes7.includes(name)) { 
+        likes7.push(name);
+    }
+    
+    updateContador7();
+});
+
+function updateContador7() {
+    const count = likes7.length;
+
+    if (count === 0) {
+        Contador7.textContent = "Ninguém curtiu";
+    } else if (count === 1) {
+        Contador7.textContent = `${likes7[0]} curtiu`;
+    } else if (count === 2) {
+        Contador7.textContent = `${likes7[0]} e ${likes7[1]} curtiram`;
+    } else {
+        Contador7.textContent = `${likes7[0]}, ${likes7[1]} e mais ${count - 2} pessoas curtiram`;
+    }
+}
+
+const Botao8 = document.getElementById('Botao8');
+const Contador8Display = document.getElementById('Contador8');
+
+let likes8 = [];
+
+Botao8.addEventListener('click', () => {
+    const name = prompt("Digite seu nome:"); 
+
+    if (name && !likes8.includes(name)) { 
+        likes8.push(name);
+    }
+    
+    updateContador8();
+});
+
+function updateContador8() {
+    const count = likes8.length;
+
+    if (count === 0) {
+        Contador8.textContent = "Ninguém curtiu";
+    } else if (count === 1) {
+        Contador8.textContent = `${likes8[0]} curtiu`;
+    } else if (count === 2) {
+        Contador8.textContent = `${likes8[0]} e ${likes8[1]} curtiram`;
+    } else {
+        Contador8.textContent = `${likes8[0]}, ${likes8[1]} e mais ${count - 2} pessoas curtiram`;
+    }
+}
+
+const Botao9 = document.getElementById('Botao9');
+const Contador9Display = document.getElementById('Contador9');
+
+let likes9 = [];
+
+Botao9.addEventListener('click', () => {
+    const name = prompt("Digite seu nome:"); 
+
+    if (name && !likes9.includes(name)) { 
+        likes9.push(name);
+    }
+    
+    updateContador9();
+});
+
+function updateContador9() {
+    const count = likes9.length;
+
+    if (count === 0) {
+        Contador9.textContent = "Ninguém curtiu";
+    } else if (count === 1) {
+        Contador9.textContent = `${likes9[0]} curtiu`;
+    } else if (count === 2) {
+        Contador9.textContent = `${likes9[0]} e ${likes9[1]} curtiram`;
+    } else {
+        Contador9.textContent = `${likes9[0]}, ${likes9[1]} e mais ${count - 2} pessoas curtiram`;
+    }
+}
+
+const Botao10 = document.getElementById('Botao10');
+const Contador10Display = document.getElementById('Contador10');
+
+let likes10 = [];
+
+Botao10.addEventListener('click', () => {
+    const name = prompt("Digite seu nome:"); 
+
+    if (name && !likes10.includes(name)) { 
+        likes10.push(name);
+    }
+    
+    updateContador10();
+});
+
+function updateContador10() {
+    const count = likes10.length;
+
+    if (count === 0) {
+        Contador10.textContent = "Ninguém curtiu";
+    } else if (count === 1) {
+        Contador10.textContent = `${likes10[0]} curtiu`;
+    } else if (count === 2) {
+        Contador10.textContent = `${likes10[0]} e ${likes10[1]} curtiram`;
+    } else {
+        Contador10.textContent = `${likes10[0]}, ${likes10[1]} e mais ${count - 2} pessoas curtiram`;
+    }
+}

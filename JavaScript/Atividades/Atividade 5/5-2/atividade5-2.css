@@ -1,0 +1,52 @@
+html{
+    background-image: linear-gradient(rgb(19, 63, 15),rgb(83, 0, 62), rgb(20, 1, 75),rgb(65, 0, 0),rgb(19, 63, 15));
+    color: rgb(219, 0, 0);
+    height: 900px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+li.concluida {
+    text-decoration: line-through;
+    color: #aaa;
+}
