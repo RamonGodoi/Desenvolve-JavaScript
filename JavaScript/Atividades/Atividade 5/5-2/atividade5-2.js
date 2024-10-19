@@ -9,7 +9,6 @@ adicionarBtn.addEventListener('click', adicionarTarefa);
 function adicionarTarefa() {
     const descricao = tarefaInput.value.trim();
     
-    // Verifica se a descrição já existe
     if (descricao && !tarefas.some(tarefa => tarefa.descricao === descricao)) {
         const novaTarefa = { descricao, status: false };
         tarefas.push(novaTarefa);
