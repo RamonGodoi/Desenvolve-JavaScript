@@ -1,15 +1,15 @@
 const feed = [];
-const feedContainer = document.getElementById('feed');
-const postButton = document.getElementById('postButton');
-const postText = document.getElementById('postText');
+const feedContainer= document.getElementById('feed');
+const postButton= document.getElementById('postButton');
+const postText= document.getElementById('postText');
 
 function renderFeed(){
     feedContainer.innerHTML= '';
     feed.forEach((post, index) => {
         const postElement = document.createElement('div');
-        postElement.className = 'post';
+        postElement.className ='post';
 
-        postElement.innerHTML= `
+        postElement.innerHTML=`
             <img class="avatar" src="imagem/avatar.jpg" alt="Avatar">
             <div class="content">
                 <div class="username">${post.username}</div>
